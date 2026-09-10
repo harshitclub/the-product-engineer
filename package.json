@@ -1,0 +1,40 @@
+{
+  "name": "the-product-engineer",
+  "version": "1.0.0",
+  "description": "The Product Engineer: From Code to Scaled Architecture — Comprehensive full-stack engineering handbook.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshitclub/the-product-engineer.git"
+  },
+  "keywords": [
+    "product-engineer",
+    "fullstack",
+    "architecture",
+    "frontend",
+    "backend",
+    "html5",
+    "css3",
+    "javascript",
+    "react",
+    "nextjs",
+    "nodejs",
+    "express",
+    "vitepress"
+  ],
+  "author": "Harshit Kumar (https://github.com/harshitclub)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harshitclub/the-product-engineer/issues"
+  },
+  "homepage": "https://github.com/harshitclub/the-product-engineer#readme",
+  "dependencies": {
+    "vitepress": "^1.6.4"
+  }
+}

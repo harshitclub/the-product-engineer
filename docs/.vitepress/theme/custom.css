@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  /* Typography */
+  --vp-font-family-base: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --vp-font-family-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Theme Tokens */
+  --vp-c-brand-1: #4f46e5;
+  --vp-c-brand-2: #6366f1;
+  --vp-c-brand-3: #818cf8;
+  --vp-c-brand-soft: rgba(99, 102, 241, 0.08);
+
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-soft: #f8fafc;
+  --vp-c-bg-mute: #f1f5f9;
+  --vp-c-bg-alt: #f8fafc;
+
+  --vp-c-border: #e2e8f0;
+  --vp-c-divider: #e2e8f0;
+
+  --vp-c-text-1: #0f172a;
+  --vp-c-text-2: #334155;
+  --vp-c-text-3: #64748b;
+}
+
+/* ==========================================================================
+   SLEEK MODERN SCROLLBAR (Cross-Browser)
+   ========================================================================== */
+html, body, .VPSidebar, .VPNav, .VPContent, * {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.VPSidebar {
+  scrollbar-gutter: stable;
+}
+
+/* ==========================================================================
+   LANDING PAGE CONTAINER & HERO
+   ========================================================================== */
+.landing-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 48px 24px 80px;
+  color: #0f172a;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 16px 56px;
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #f5f3ff;
+  border: 1px solid #e0e7ff;
+  color: #4f46e5;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 9999px;
+  margin-bottom: 24px;
+}
+
+.hero-badge-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #4f46e5;
+}
+
+.hero-main-title {
+  font-size: clamp(2.25rem, 6vw, 3.85rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+  color: #0f172a;
+  margin: 0;
+}
+
+.hero-gradient-subtitle {
+  font-size: clamp(1.25rem, 3.5vw, 1.85rem);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #4f46e5;
+  margin-top: 12px;
+}
+
+.hero-lead {
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  color: #475569;
+  line-height: 1.65;
+  max-width: 640px;
+  margin: 20px auto 0;
+  font-weight: 400;
+}
+
+.hero-cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.btn-primary-hero {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #4f46e5;
+  color: #ffffff !important;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  padding: 10px 22px;
+  border-radius: 4px;
+  text-decoration: none !important;
+  box-shadow: 0 1px 2px rgba(79, 70, 229, 0.2);
+  transition: all 0.15s ease;
+}
+
+.btn-primary-hero:hover {
+  background-color: #4338ca;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+}
+
+.btn-secondary-hero {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #ffffff;
+  color: #1e293b !important;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 1px solid #cbd5e1;
+  text-decoration: none !important;
+  transition: all 0.15s ease;
+}
+
+.btn-secondary-hero:hover {
+  background-color: #f8fafc;
+  border-color: #94a3b8;
+  transform: translateY(-1px);
+}
+
+/* ==========================================================================
+   ENGINEERING TRACKS SECTION (2x2 GRID)
+   ========================================================================== */
+.tracks-section {
+  margin-top: 40px;
+  padding-top: 48px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.section-heading {
+  font-size: 1.65rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: #0f172a;
+  margin: 0;
+}
+
+.section-subtext {
+  font-size: 0.975rem;
+  color: #64748b;
+  margin: 8px 0 0;
+}
+
+.tracks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.track-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 24px;
+  text-decoration: none !important;
+  color: inherit !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+  transition: all 0.2s ease;
+}
+
+.track-card.active-track {
+  border-color: #c7d2fe;
+  background-color: #fafafa;
+}
+
+.track-card.active-track:hover {
+  border-color: #6366f1;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px -2px rgba(99, 102, 241, 0.12);
+}
+
+.track-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.track-icon-box {
+  width: 40px;
+  height: 40px;
+  background-color: #f5f3ff;
+  border: 1px solid #e0e7ff;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.status-pill {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.status-active {
+  background-color: #ecfdf5;
+  color: #059669;
+  border: 1px solid #a7f3d0;
+}
+
+.status-upcoming {
+  background-color: #f1f5f9;
+  color: #64748b;
+  border: 1px solid #e2e8f0;
+}
+
+.track-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0f172a;
+  letter-spacing: -0.015em;
+  margin: 0 0 8px;
+}
+
+.track-desc {
+  font-size: 0.9rem;
+  color: #64748b;
+  line-height: 1.55;
+  margin: 0 0 20px;
+  flex-grow: 1;
+}
+
+.track-footer {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #4f46e5;
+}
+
+.disabled-footer {
+  color: #94a3b8 !important;
+  font-weight: 500;
+}
+
+/* ==========================================================================
+   PHILOSOPHY SECTION (3 CARDS)
+   ========================================================================== */
+.philosophy-section {
+  margin-top: 64px;
+  padding-top: 48px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.philosophy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.philosophy-card {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 24px;
+}
+
+.phil-number {
+  font-family: var(--vp-font-family-mono);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: #4f46e5;
+  margin-bottom: 12px;
+}
+
+.philosophy-card h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 8px;
+  letter-spacing: -0.01em;
+}
+
+.philosophy-card p {
+  font-size: 0.875rem;
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ==========================================================================
+   GLOBAL NAVBAR & FOOTER
+   ========================================================================== */
+.VPNav {
+  border-bottom: 1px solid #e2e8f0 !important;
+}
+
+.VPFooter {
+  border-top: 1px solid #e2e8f0 !important;
+  background-color: #ffffff !important;
+  padding: 32px 24px !important;
+  text-align: center !important;
+}
+
+.VPFooter .message {
+  font-size: 0.875rem !important;
+  color: #475569 !important;
+  margin-bottom: 4px !important;
+}
+
+.VPFooter .message a {
+  color: #4f46e5 !important;
+  font-weight: 600 !important;
+  text-decoration: underline !important;
+}
+
+.VPFooter .copyright {
+  font-size: 0.8125rem !important;
+  color: #94a3b8 !important;
+}
+
+/* Document & Sidebar Typography */
+.VPSidebar {
+  border-right: 1px solid #e2e8f0 !important;
+}
+
+.vp-doc h1 {
+  font-weight: 800 !important;
+  letter-spacing: -0.03em !important;
+  color: #0f172a !important;
+}
+
+.vp-doc h2 {
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+  color: #0f172a !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+}
+
+.vp-doc div[class*='language-'] {
+  border-radius: 4px !important;
+  border: 1px solid #e2e8f0 !important;
+}
