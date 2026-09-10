@@ -7,8 +7,38 @@ export default defineConfig({
   lastUpdated: true,
   appearance: false, // Default Light Mode
 
+  head: [
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap' }],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=5.0' }],
+    ['meta', { name: 'theme-color', content: '#4f46e5' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'The Product Engineer' }],
+    ['meta', { property: 'og:description', content: 'From Code to Scaled Architecture — Comprehensive full-stack engineering handbook.' }]
+  ],
+
+  vite: {
+    build: {
+      cssCodeSplit: true,
+      chunkSizeWarningLimit: 1000
+    },
+    server: {
+      fs: {
+        strict: true
+      }
+    }
+  },
+
   themeConfig: {
     siteTitle: 'The Product Engineer',
+    
+    notFound: {
+      title: 'PAGE NOT FOUND',
+      quote: 'The requested engineering chapter might have moved or the session refreshed.',
+      linkLabel: 'Return to Hub',
+      linkText: 'Take me back to Home'
+    },
     
     search: {
       provider: 'local',
@@ -18,7 +48,8 @@ export default defineConfig({
     },
 
     nav: [
-      { text: 'Frontend', link: '/frontend/' }
+      { text: 'Frontend', link: '/frontend/' },
+      { text: 'Interview', link: '/interview/' }
     ],
 
     sidebar: {
@@ -104,7 +135,19 @@ export default defineConfig({
           text: 'JavaScript',
           collapsed: true,
           items: [
-            { text: 'Introduction to JavaScript', link: '/frontend/javascript/introduction-to-javascript' }
+            { text: '1. Introduction to JavaScript', link: '/frontend/javascript/introduction-to-javascript' },
+            { text: '2. Basics, Types & Operators', link: '/frontend/javascript/javascript-basics-and-syntax' },
+            { text: '3. Functions Deep Dive (All 12 Types)', link: '/frontend/javascript/javascript-functions-deep-dive' },
+            { text: '4. Arrays & Complete Array Methods', link: '/frontend/javascript/javascript-arrays-and-all-methods' },
+            { text: '5. Objects, Destructuring & Spread', link: '/frontend/javascript/javascript-objects-and-destructuring' },
+            { text: '6. Strings, RegExp & Numbers', link: '/frontend/javascript/javascript-strings-and-numbers' },
+            { text: '7. DOM Manipulation & Traversal', link: '/frontend/javascript/dom-manipulation-and-traversal' },
+            { text: '8. DOM Events & Interactive UI', link: '/frontend/javascript/dom-events-and-interactivity' },
+            { text: '9. Forms & Browser Storage', link: '/frontend/javascript/forms-and-browser-storage' },
+            { text: '10. Async JS & Promises Masterclass', link: '/frontend/javascript/asynchronous-javascript-and-promises' },
+            { text: '11. Async/Await & Fetch API', link: '/frontend/javascript/async-await-and-fetch-api' },
+            { text: '12. Event Loop & Runtimes', link: '/frontend/javascript/javascript-event-loop-and-runtimes' },
+            { text: '13. Modules & Modern Tooling', link: '/frontend/javascript/javascript-modules-and-modern-tooling' }
           ]
         },
         {
@@ -119,6 +162,31 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: 'Introduction to Next.js', link: '/frontend/nextjs/introduction-to-nextjs' }
+          ]
+        }
+      ],
+      '/interview/': [
+        {
+          text: 'Interview Hub',
+          collapsed: false,
+          items: [
+            { text: 'Overview & Question Bank', link: '/interview/' }
+          ]
+        },
+        {
+          text: 'HTML Interview',
+          collapsed: false,
+          items: [
+            { text: '100 Theoretical Questions', link: '/interview/html/html-theoretical-questions' },
+            { text: '100 Practical & Coding Questions', link: '/interview/html/html-practical-questions' }
+          ]
+        },
+        {
+          text: 'CSS Interview',
+          collapsed: false,
+          items: [
+            { text: '100 Theoretical Questions', link: '/interview/css/css-theoretical-questions' },
+            { text: '100 Practical & Coding Questions', link: '/interview/css/css-practical-questions' }
           ]
         }
       ]

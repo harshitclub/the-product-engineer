@@ -8,18 +8,18 @@ import { withBase } from 'vitepress';
     <header class="hub-header">
       <div class="hub-badge">
         <span class="hub-badge-dot"></span>
-        <span>Curriculum Modules</span>
+        <span>Technical Interview Prep</span>
       </div>
-      <h1 class="hub-title">Frontend Architecture</h1>
+      <h1 class="hub-title">Engineering Interview Bank</h1>
       <p class="hub-subtitle">
-        Structured engineering notes from core client-side markup and styling to runtime mechanics and full-stack React systems.
+        Curated, production-grade interview questions and deep-dive conceptual answers designed for modern product and software engineers.
       </p>
     </header>
 
     <!-- Compact Cards Grid -->
     <div class="hub-grid">
-      <!-- 1. HTML5 -->
-      <a :href="withBase('/frontend/html/introduction-to-html')" class="hub-card">
+      <!-- 1. HTML5 Interview (Available) -->
+      <a :href="withBase('/interview/html/html-theoretical-questions')" class="hub-card">
         <div class="hub-card-header">
           <div class="hub-icon-wrap icon-html">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -28,26 +28,27 @@ import { withBase } from 'vitepress';
             </svg>
           </div>
           <div class="hub-card-meta">
-            <h2 class="hub-card-title">HTML5</h2>
-            <span class="hub-pill pill-html">23 Modules</span>
+            <h2 class="hub-card-title">HTML5 Architecture</h2>
+            <span class="hub-pill pill-html">200 Questions</span>
           </div>
         </div>
         <p class="hub-card-desc">
-          Document hierarchy, semantic landmarks, accessible forms, multimedia, SEO, and WCAG standards.
+          100 In-depth Theoretical Questions & 100 Hands-on Practical Coding Exercises from fundamentals to scalable production architecture.
         </p>
         <div class="hub-tags">
-          <span class="hub-tag">Semantics</span>
-          <span class="hub-tag">Forms & a11y</span>
-          <span class="hub-tag">SEO</span>
+          <span class="hub-tag">100 Theory</span>
+          <span class="hub-tag">100 Practical</span>
+          <span class="hub-tag">a11y & ARIA</span>
+          <span class="hub-tag">SEO & Security</span>
         </div>
         <div class="hub-card-action">
-          <span>Read HTML Notes</span>
+          <span>Explore HTML Questions</span>
           <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
         </div>
       </a>
 
-      <!-- 2. CSS3 -->
-      <a :href="withBase('/frontend/css/introduction-to-css')" class="hub-card">
+      <!-- 2. CSS3 Interview (Available) -->
+      <a :href="withBase('/interview/css/css-theoretical-questions')" class="hub-card">
         <div class="hub-card-header">
           <div class="hub-icon-wrap icon-css">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -58,25 +59,26 @@ import { withBase } from 'vitepress';
           </div>
           <div class="hub-card-meta">
             <h2 class="hub-card-title">Modern CSS3</h2>
-            <span class="hub-pill pill-css">35 Modules</span>
+            <span class="hub-pill pill-css">200 Questions</span>
           </div>
         </div>
         <p class="hub-card-desc">
-          Box Model, Specificity cascade, Flexbox, 2D CSS Grid, OKLCH colors, fluid clamp(), and animations.
+          100 In-depth Theoretical Questions & 100 Hands-on Practical Challenges covering specificity, BFC, Flexbox, CSS Grid, Subgrid, and animations.
         </p>
         <div class="hub-tags">
+          <span class="hub-tag">100 Theory</span>
+          <span class="hub-tag">100 Practical</span>
           <span class="hub-tag">Flexbox & Grid</span>
-          <span class="hub-tag">OKLCH</span>
-          <span class="hub-tag">Cascade</span>
+          <span class="hub-tag">Subgrid & clamp()</span>
         </div>
         <div class="hub-card-action">
-          <span>Read CSS Notes</span>
+          <span>Explore CSS Questions</span>
           <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
         </div>
       </a>
 
-      <!-- 3. JavaScript -->
-      <a :href="withBase('/frontend/javascript/introduction-to-javascript')" class="hub-card">
+      <!-- 3. JavaScript Interview (Upcoming) -->
+      <div class="hub-card disabled-card">
         <div class="hub-card-header">
           <div class="hub-icon-wrap icon-js">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -85,26 +87,25 @@ import { withBase } from 'vitepress';
             </svg>
           </div>
           <div class="hub-card-meta">
-            <h2 class="hub-card-title">JavaScript ES6+</h2>
-            <span class="hub-pill pill-js">13 Deep-Dive Modules</span>
+            <h2 class="hub-card-title">JavaScript ES6+ & V8</h2>
+            <span class="hub-pill">Upcoming</span>
           </div>
         </div>
         <p class="hub-card-desc">
-          V8 engine mechanics, Call Stack vs Heap, Event Loop scheduling, Closures, Promises, and Async/Await.
+          Event Loop microtasks vs macrotasks, Closures memory leaks, Prototype chain, Promises polyfills, Currying, and Debounce/Throttle.
         </p>
         <div class="hub-tags">
           <span class="hub-tag">Event Loop</span>
-          <span class="hub-tag">V8 Engine</span>
-          <span class="hub-tag">Async / Await</span>
+          <span class="hub-tag">Closures</span>
+          <span class="hub-tag">Polyfills</span>
         </div>
-        <div class="hub-card-action">
-          <span>Read JS Notes</span>
-          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        <div class="hub-card-action disabled-action">
+          <span>In Curriculum</span>
         </div>
-      </a>
+      </div>
 
-      <!-- 4. React.js -->
-      <a :href="withBase('/frontend/react/introduction-to-react')" class="hub-card">
+      <!-- 4. React.js Interview (Upcoming) -->
+      <div class="hub-card disabled-card">
         <div class="hub-card-header">
           <div class="hub-icon-wrap icon-react">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -115,26 +116,25 @@ import { withBase } from 'vitepress';
             </svg>
           </div>
           <div class="hub-card-meta">
-            <h2 class="hub-card-title">React.js</h2>
-            <span class="hub-pill pill-react">UI Library</span>
+            <h2 class="hub-card-title">React.js & Fiber</h2>
+            <span class="hub-pill">Upcoming</span>
           </div>
         </div>
         <p class="hub-card-desc">
-          JSX mental model, Virtual DOM Fiber diffing, unidirectional state flow, and the modern Hooks ecosystem.
+          Fiber reconciliation, batching in React 18/19, Custom hooks, useMemo vs useCallback, Context vs Redux, and Suspense.
         </p>
         <div class="hub-tags">
-          <span class="hub-tag">Virtual DOM</span>
+          <span class="hub-tag">Fiber Tree</span>
+          <span class="hub-tag">State Management</span>
           <span class="hub-tag">Hooks</span>
-          <span class="hub-tag">State Flow</span>
         </div>
-        <div class="hub-card-action">
-          <span>Read React Notes</span>
-          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        <div class="hub-card-action disabled-action">
+          <span>In Curriculum</span>
         </div>
-      </a>
+      </div>
 
-      <!-- 5. Next.js -->
-      <a :href="withBase('/frontend/nextjs/introduction-to-nextjs')" class="hub-card">
+      <!-- 5. Next.js & Full Stack (Upcoming) -->
+      <div class="hub-card disabled-card">
         <div class="hub-card-header">
           <div class="hub-icon-wrap icon-next">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -143,23 +143,51 @@ import { withBase } from 'vitepress';
             </svg>
           </div>
           <div class="hub-card-meta">
-            <h2 class="hub-card-title">Next.js</h2>
-            <span class="hub-pill pill-next">Full-Stack Framework</span>
+            <h2 class="hub-card-title">Next.js & Server Systems</h2>
+            <span class="hub-pill">Upcoming</span>
           </div>
         </div>
         <p class="hub-card-desc">
-          Server Components (RSC), App Router routing, Server Actions, and hybrid SSR/SSG/ISR rendering.
+          RSC serialization boundaries, Server Actions security, ISR on-demand revalidation, Edge vs Node runtimes, and Middleware auth.
         </p>
         <div class="hub-tags">
           <span class="hub-tag">RSC</span>
           <span class="hub-tag">App Router</span>
-          <span class="hub-tag">SSR / ISR</span>
+          <span class="hub-tag">Edge Computing</span>
         </div>
-        <div class="hub-card-action">
-          <span>Read Next.js Notes</span>
-          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        <div class="hub-card-action disabled-action">
+          <span>In Curriculum</span>
         </div>
-      </a>
+      </div>
+
+      <!-- 6. Backend & System Design (Upcoming) -->
+      <div class="hub-card disabled-card">
+        <div class="hub-card-header">
+          <div class="hub-icon-wrap icon-backend">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="8" x="2" y="2" rx="2" ry="2"></rect>
+              <rect width="20" height="8" x="2" y="14" rx="2" ry="2"></rect>
+              <line x1="6" x2="6.01" y1="6" y2="6"></line>
+              <line x1="6" x2="6.01" y1="18" y2="18"></line>
+            </svg>
+          </div>
+          <div class="hub-card-meta">
+            <h2 class="hub-card-title">Backend & System Design</h2>
+            <span class="hub-pill">Upcoming</span>
+          </div>
+        </div>
+        <p class="hub-card-desc">
+          REST vs gRPC, PostgreSQL indexing & ACID transactions, Redis caching strategies (Cache-Aside), and Rate limiting algorithms.
+        </p>
+        <div class="hub-tags">
+          <span class="hub-tag">System Design</span>
+          <span class="hub-tag">Databases</span>
+          <span class="hub-tag">Caching</span>
+        </div>
+        <div class="hub-card-action disabled-action">
+          <span>In Curriculum</span>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -236,10 +264,15 @@ import { withBase } from 'vitepress';
   min-height: 44px;
 }
 
-.hub-card:hover {
+.hub-card:hover:not(.disabled-card) {
   border-color: #6366f1;
   transform: translateY(-2px);
   box-shadow: 0 6px 16px -2px rgba(99, 102, 241, 0.1);
+}
+
+.disabled-card {
+  opacity: 0.85;
+  background-color: #fafbfc;
 }
 
 .hub-card-header {
@@ -289,6 +322,12 @@ import { withBase } from 'vitepress';
   color: #0f172a;
 }
 
+.icon-backend {
+  background-color: #f5f3ff;
+  border: 1px solid #e0e7ff;
+  color: #4f46e5;
+}
+
 .hub-card-meta {
   display: flex;
   align-items: center;
@@ -315,11 +354,7 @@ import { withBase } from 'vitepress';
   white-space: nowrap;
 }
 
-.pill-html { background-color: #fff1f2; color: #be123c; }
-.pill-css { background-color: #eff6ff; color: #1d4ed8; }
-.pill-js { background-color: #fefce8; color: #a16207; }
-.pill-react { background-color: #ecfeff; color: #0e7490; }
-.pill-next { background-color: #f8fafc; color: #334155; }
+.pill-html { background-color: #ecfdf5; color: #059669; border: 1px solid #a7f3d0; }
 
 .hub-card-desc {
   font-size: 0.85rem;
@@ -356,11 +391,16 @@ import { withBase } from 'vitepress';
   font-weight: 600;
 }
 
+.disabled-action {
+  color: #94a3b8 !important;
+  font-weight: 500;
+}
+
 .arrow {
   transition: transform 0.15s ease;
 }
 
-.hub-card:hover .arrow {
+.hub-card:hover:not(.disabled-card) .arrow {
   transform: translateX(3px);
 }
 
@@ -383,4 +423,3 @@ import { withBase } from 'vitepress';
   }
 }
 </style>
-
