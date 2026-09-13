@@ -49,6 +49,7 @@ export default defineConfig({
 
     nav: [
       { text: 'Frontend', link: '/frontend/' },
+      { text: 'DevOps', link: '/devops/' },
       { text: 'Interview', link: '/interview/' }
     ],
 
@@ -63,91 +64,26 @@ export default defineConfig({
         },
         {
           text: 'HTML',
-          collapsed: true,
+          collapsed: false,
           items: [
-            { text: 'Introduction to HTML', link: '/frontend/html/introduction-to-html' },
-            { text: 'Document Structure', link: '/frontend/html/html-document-structure' },
-            { text: 'Elements', link: '/frontend/html/html-elements' },
-            { text: 'Attributes', link: '/frontend/html/html-attributes' },
-            { text: 'Headings', link: '/frontend/html/html-headings' },
-            { text: 'Paragraphs', link: '/frontend/html/html-paragraphs' },
-            { text: 'Text Formatting', link: '/frontend/html/html-text-formatting' },
-            { text: 'Links', link: '/frontend/html/html-links' },
-            { text: 'Images', link: '/frontend/html/html-images' },
-            { text: 'Lists', link: '/frontend/html/html-lists' },
-            { text: 'Tables', link: '/frontend/html/html-tables' },
-            { text: 'Block Elements', link: '/frontend/html/html-block-elements' },
-            { text: 'Inline Elements', link: '/frontend/html/html-inline-elements' },
-            { text: 'Div and Span', link: '/frontend/html/html-div-and-span' },
-            { text: 'Semantic Elements', link: '/frontend/html/html-semantic-elements' },
-            { text: 'Forms', link: '/frontend/html/html-forms' },
-            { text: 'Inputs & Controls', link: '/frontend/html/html-inputs' },
-            { text: 'Audio & Video Media', link: '/frontend/html/html-media' },
-            { text: 'Iframes', link: '/frontend/html/html-iframe' },
-            { text: 'Metadata & Head', link: '/frontend/html/html-metadata' },
-            { text: 'Accessibility (a11y)', link: '/frontend/html/html-accessibility' },
-            { text: 'SEO Best Practices', link: '/frontend/html/html-seo' },
-            { text: 'Industry Best Practices', link: '/frontend/html/html-best-practices' }
+            { text: 'Complete HTML & Semantic Guide', link: '/frontend/html/' }
           ]
         },
         {
           text: 'CSS',
-          collapsed: true,
+          collapsed: false,
           items: [
-            { text: 'Introduction to CSS', link: '/frontend/css/introduction-to-css' },
-            { text: 'Adding CSS to HTML', link: '/frontend/css/adding-css-to-html' },
-            { text: 'CSS Syntax', link: '/frontend/css/css-syntax' },
-            { text: 'CSS Selectors', link: '/frontend/css/css-selectors' },
-            { text: 'Specificity & Cascade', link: '/frontend/css/css-specificity' },
-            { text: 'CSS Colors', link: '/frontend/css/css-colors' },
-            { text: 'CSS Units', link: '/frontend/css/css-units' },
-            { text: 'Box Model', link: '/frontend/css/css-box-model' },
-            { text: 'Width & Height', link: '/frontend/css/css-width-and-height' },
-            { text: 'Margin & Padding', link: '/frontend/css/css-margin-and-padding' },
-            { text: 'Borders & Outlines', link: '/frontend/css/css-borders' },
-            { text: 'Backgrounds', link: '/frontend/css/css-backgrounds' },
-            { text: 'Text Styling', link: '/frontend/css/css-text' },
-            { text: 'Typography & Fonts', link: '/frontend/css/css-fonts' },
-            { text: 'Display Property', link: '/frontend/css/css-display' },
-            { text: 'Positioning', link: '/frontend/css/css-position' },
-            { text: 'Overflow Management', link: '/frontend/css/css-overflow' },
-            { text: 'Z-Index & Stacking', link: '/frontend/css/css-z-index' },
-            { text: 'Flexbox Layout', link: '/frontend/css/css-flexbox' },
-            { text: 'Grid Layout', link: '/frontend/css/css-grid' },
-            { text: 'Responsive Design', link: '/frontend/css/css-responsive-design' },
-            { text: 'Media Queries', link: '/frontend/css/css-media-queries' },
-            { text: 'Pseudo-Classes', link: '/frontend/css/css-pseudo-classes' },
-            { text: 'Pseudo-Elements', link: '/frontend/css/css-pseudo-elements' },
-            { text: 'Transforms', link: '/frontend/css/css-transforms' },
-            { text: 'Transitions', link: '/frontend/css/css-transitions' },
-            { text: 'Custom Properties (Variables)', link: '/frontend/css/css-custom-properties' },
-            { text: 'CSS Functions (calc, clamp)', link: '/frontend/css/css-functions' },
-            { text: 'Shadows & Elevation', link: '/frontend/css/css-shadows' },
-            { text: 'Gradients', link: '/frontend/css/css-gradients' },
-            { text: 'List Styling', link: '/frontend/css/css-lists' },
-            { text: 'Table Styling', link: '/frontend/css/css-tables' },
-            { text: 'Form Controls', link: '/frontend/css/css-forms' },
-            { text: 'CSS Debugging', link: '/frontend/css/css-debugging' },
-            { text: 'Industry Best Practices', link: '/frontend/css/css-best-practices' }
+            { text: 'Complete CSS & Design Guide', link: '/frontend/css/' }
           ]
         },
         {
-          text: 'JavaScript',
-          collapsed: true,
+          text: 'JavaScript Track',
+          collapsed: false,
           items: [
-            { text: '1. Introduction to JavaScript', link: '/frontend/javascript/introduction-to-javascript' },
-            { text: '2. Basics, Types & Operators', link: '/frontend/javascript/javascript-basics-and-syntax' },
-            { text: '3. Functions Deep Dive (All 12 Types)', link: '/frontend/javascript/javascript-functions-deep-dive' },
-            { text: '4. Arrays & Complete Array Methods', link: '/frontend/javascript/javascript-arrays-and-all-methods' },
-            { text: '5. Objects, Destructuring & Spread', link: '/frontend/javascript/javascript-objects-and-destructuring' },
-            { text: '6. Strings, RegExp & Numbers', link: '/frontend/javascript/javascript-strings-and-numbers' },
-            { text: '7. DOM Manipulation & Traversal', link: '/frontend/javascript/dom-manipulation-and-traversal' },
-            { text: '8. DOM Events & Interactive UI', link: '/frontend/javascript/dom-events-and-interactivity' },
-            { text: '9. Forms & Browser Storage', link: '/frontend/javascript/forms-and-browser-storage' },
-            { text: '10. Async JS & Promises Masterclass', link: '/frontend/javascript/asynchronous-javascript-and-promises' },
-            { text: '11. Async/Await & Fetch API', link: '/frontend/javascript/async-await-and-fetch-api' },
-            { text: '12. Event Loop & Runtimes', link: '/frontend/javascript/javascript-event-loop-and-runtimes' },
-            { text: '13. Modules & Modern Tooling', link: '/frontend/javascript/javascript-modules-and-modern-tooling' }
+            { text: 'Overview & Roadmap', link: '/frontend/javascript/' },
+            { text: '1. Core Fundamentals & DOM', link: '/frontend/javascript/javascript-fundamentals' },
+            { text: '2. Modern ES6+ (React Bridge)', link: '/frontend/javascript/modern-javascript-for-react' },
+            { text: '3. Async JS & Node Bridge', link: '/frontend/javascript/async-javascript-and-apis' }
           ]
         },
         {
@@ -162,6 +98,29 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: 'Introduction to Next.js', link: '/frontend/nextjs/introduction-to-nextjs' }
+          ]
+        }
+      ],
+      '/devops/': [
+        {
+          text: 'DevOps Hub',
+          collapsed: false,
+          items: [
+            { text: 'Overview & Curriculum', link: '/devops/' }
+          ]
+        },
+        {
+          text: 'Git & GitHub',
+          collapsed: false,
+          items: [
+            { text: 'Complete Git & GitHub Guide', link: '/devops/git/' }
+          ]
+        },
+        {
+          text: 'Docker',
+          collapsed: false,
+          items: [
+            { text: 'Docker & Containerization Guide', link: '/devops/docker/' }
           ]
         }
       ],

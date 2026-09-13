@@ -19,7 +19,7 @@ import { withBase } from 'vitepress';
     <!-- Compact Cards Grid -->
     <div class="hub-grid">
       <!-- 1. HTML5 -->
-      <a :href="withBase('/frontend/html/introduction-to-html')" class="hub-card">
+      <a :href="withBase('/frontend/html/')" class="hub-card">
         <div class="hub-card-header">
           <div class="hub-icon-wrap icon-html">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -29,25 +29,25 @@ import { withBase } from 'vitepress';
           </div>
           <div class="hub-card-meta">
             <h2 class="hub-card-title">HTML5</h2>
-            <span class="hub-pill pill-html">23 Modules</span>
+            <span class="hub-pill pill-html">Complete Guide</span>
           </div>
         </div>
         <p class="hub-card-desc">
-          Document hierarchy, semantic landmarks, accessible forms, multimedia, SEO, and WCAG standards.
+          Core foundations, modern semantic layout tags, accessible forms, audio/video media, and full practical webpage project.
         </p>
         <div class="hub-tags">
-          <span class="hub-tag">Semantics</span>
-          <span class="hub-tag">Forms & a11y</span>
-          <span class="hub-tag">SEO</span>
+          <span class="hub-tag">Core Essentials</span>
+          <span class="hub-tag">Semantic HTML</span>
+          <span class="hub-tag">Forms & Media</span>
         </div>
         <div class="hub-card-action">
-          <span>Read HTML Notes</span>
+          <span>Read HTML Guide</span>
           <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
         </div>
       </a>
 
       <!-- 2. CSS3 -->
-      <a :href="withBase('/frontend/css/introduction-to-css')" class="hub-card">
+      <a :href="withBase('/frontend/css/')" class="hub-card">
         <div class="hub-card-header">
           <div class="hub-icon-wrap icon-css">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -58,25 +58,25 @@ import { withBase } from 'vitepress';
           </div>
           <div class="hub-card-meta">
             <h2 class="hub-card-title">Modern CSS3</h2>
-            <span class="hub-pill pill-css">35 Modules</span>
+            <span class="hub-pill pill-css">Complete Guide</span>
           </div>
         </div>
         <p class="hub-card-desc">
-          Box Model, Specificity cascade, Flexbox, 2D CSS Grid, OKLCH colors, fluid clamp(), and animations.
+          Box Model, Flexbox, 2D CSS Grid, CSS variables, fluid clamp(), micro-animations, and full responsive project styling.
         </p>
         <div class="hub-tags">
           <span class="hub-tag">Flexbox & Grid</span>
-          <span class="hub-tag">OKLCH</span>
-          <span class="hub-tag">Cascade</span>
+          <span class="hub-tag">Variables</span>
+          <span class="hub-tag">Responsive</span>
         </div>
         <div class="hub-card-action">
-          <span>Read CSS Notes</span>
+          <span>Read CSS Guide</span>
           <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
         </div>
       </a>
 
       <!-- 3. JavaScript -->
-      <a :href="withBase('/frontend/javascript/introduction-to-javascript')" class="hub-card">
+      <a :href="withBase('/frontend/javascript/')" class="hub-card">
         <div class="hub-card-header">
           <div class="hub-icon-wrap icon-js">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -86,19 +86,19 @@ import { withBase } from 'vitepress';
           </div>
           <div class="hub-card-meta">
             <h2 class="hub-card-title">JavaScript ES6+</h2>
-            <span class="hub-pill pill-js">13 Deep-Dive Modules</span>
+            <span class="hub-pill pill-js">3-Part Masterclass</span>
           </div>
         </div>
         <p class="hub-card-desc">
-          V8 engine mechanics, Call Stack vs Heap, Event Loop scheduling, Closures, Promises, and Async/Await.
+          Core syntax, DOM events, modern ES6+ for React, the Event Loop, Promises, Fetch API, and Node.js backend bridge.
         </p>
         <div class="hub-tags">
-          <span class="hub-tag">Event Loop</span>
-          <span class="hub-tag">V8 Engine</span>
-          <span class="hub-tag">Async / Await</span>
+          <span class="hub-tag">Core & DOM</span>
+          <span class="hub-tag">ES6+ for React</span>
+          <span class="hub-tag">Async & Node</span>
         </div>
         <div class="hub-card-action">
-          <span>Read JS Notes</span>
+          <span>Explore JS Track</span>
           <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
         </div>
       </a>

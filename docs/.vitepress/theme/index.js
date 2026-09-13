@@ -1,6 +1,7 @@
 import DefaultTheme from 'vitepress/theme';
 import Home from './Home.vue';
 import FrontendHub from './FrontendHub.vue';
+import DevOpsHub from './DevOpsHub.vue';
 import InterviewHub from './InterviewHub.vue';
 import './custom.css';
 
@@ -17,6 +18,7 @@ export default {
   enhanceApp({ app, router }) {
     app.component('Home', Home);
     app.component('FrontendHub', FrontendHub);
+    app.component('DevOpsHub', DevOpsHub);
     app.component('InterviewHub', InterviewHub);
 
     // Fallback gracefully to direct navigation if SPA chunk import encounters an error
