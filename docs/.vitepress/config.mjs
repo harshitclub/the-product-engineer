@@ -87,17 +87,14 @@ export default defineConfig({
           ]
         },
         {
-          text: 'React.js',
-          collapsed: true,
+          text: 'Next.js Track',
+          collapsed: false,
           items: [
-            { text: 'Introduction to React.js', link: '/frontend/react/introduction-to-react' }
-          ]
-        },
-        {
-          text: 'Next.js',
-          collapsed: true,
-          items: [
-            { text: 'Introduction to Next.js', link: '/frontend/nextjs/introduction-to-nextjs' }
+            { text: 'Overview & Roadmap', link: '/frontend/nextjs/' },
+            { text: '1. Setup, Routing & Layouts', link: '/frontend/nextjs/01-routing-and-layouts' },
+            { text: '2. Server vs. Client Components', link: '/frontend/nextjs/02-server-and-client-components' },
+            { text: '3. Data Fetching & APIs', link: '/frontend/nextjs/03-data-fetching-and-apis' },
+            { text: '4. Server Actions, SEO & Full Project', link: '/frontend/nextjs/04-mutations-seo-and-production' }
           ]
         }
       ],
@@ -146,6 +143,14 @@ export default defineConfig({
           items: [
             { text: '100 Theoretical Questions', link: '/interview/css/css-theoretical-questions' },
             { text: '100 Practical & Coding Questions', link: '/interview/css/css-practical-questions' }
+          ]
+        },
+        {
+          text: 'JavaScript Interview',
+          collapsed: false,
+          items: [
+            { text: '100 Theoretical Questions', link: '/interview/javascript/javascript-theoretical-questions' },
+            { text: '100 Practical & Coding Questions', link: '/interview/javascript/javascript-practical-questions' }
           ]
         }
       ]

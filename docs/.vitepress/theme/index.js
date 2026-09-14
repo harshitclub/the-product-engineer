@@ -15,23 +15,11 @@ if (typeof window !== 'undefined') {
 
 export default {
   extends: DefaultTheme,
-  enhanceApp({ app, router }) {
+  enhanceApp({ app }) {
     app.component('Home', Home);
     app.component('FrontendHub', FrontendHub);
     app.component('DevOpsHub', DevOpsHub);
     app.component('InterviewHub', InterviewHub);
-
-    // Fallback gracefully to direct navigation if SPA chunk import encounters an error
-    if (typeof window !== 'undefined' && router) {
-      const originalGo = router.go.bind(router);
-      router.go = async (href) => {
-        try {
-          await originalGo(href);
-        } catch {
-          window.location.href = href;
-        }
-      };
-    }
   }
 };
 

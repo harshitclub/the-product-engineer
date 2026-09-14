@@ -77,8 +77,8 @@ import { withBase } from 'vitepress';
         </div>
       </a>
 
-      <!-- 3. JavaScript Interview (Upcoming) -->
-      <div class="hub-card disabled-card">
+      <!-- 3. JavaScript Interview (Available) -->
+      <a :href="withBase('/interview/javascript/javascript-theoretical-questions')" class="hub-card">
         <div class="hub-card-header">
           <div class="hub-icon-wrap icon-js">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -88,21 +88,23 @@ import { withBase } from 'vitepress';
           </div>
           <div class="hub-card-meta">
             <h2 class="hub-card-title">JavaScript ES6+ & V8</h2>
-            <span class="hub-pill">Upcoming</span>
+            <span class="hub-pill pill-js">200 Questions</span>
           </div>
         </div>
         <p class="hub-card-desc">
-          Event Loop microtasks vs macrotasks, Closures memory leaks, Prototype chain, Promises polyfills, Currying, and Debounce/Throttle.
+          100 Theoretical Q&A & 100 Practical Coding Challenges covering closures, the Event Loop, prototypes, and async patterns.
         </p>
         <div class="hub-tags">
+          <span class="hub-tag">100 Theory</span>
+          <span class="hub-tag">100 Practical</span>
           <span class="hub-tag">Event Loop</span>
-          <span class="hub-tag">Closures</span>
           <span class="hub-tag">Polyfills</span>
         </div>
-        <div class="hub-card-action disabled-action">
-          <span>In Curriculum</span>
+        <div class="hub-card-action">
+          <span>Explore JS Questions</span>
+          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
         </div>
-      </div>
+      </a>
 
       <!-- 4. React.js Interview (Upcoming) -->
       <div class="hub-card disabled-card">
@@ -355,6 +357,8 @@ import { withBase } from 'vitepress';
 }
 
 .pill-html { background-color: #ecfdf5; color: #059669; border: 1px solid #a7f3d0; }
+.pill-css { background-color: #eff6ff; color: #1d4ed8; border: 1px solid #dbeafe; }
+.pill-js { background-color: #fefce8; color: #a16207; border: 1px solid #fef08a; }
 
 .hub-card-desc {
   font-size: 0.85rem;

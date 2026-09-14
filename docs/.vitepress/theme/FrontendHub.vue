@@ -103,38 +103,8 @@ import { withBase } from 'vitepress';
         </div>
       </a>
 
-      <!-- 4. React.js -->
-      <a :href="withBase('/frontend/react/introduction-to-react')" class="hub-card">
-        <div class="hub-card-header">
-          <div class="hub-icon-wrap icon-react">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="2"></circle>
-              <path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"></path>
-              <path d="M4.93 4.93c3.905 3.905 10.237 3.905 14.142 0"></path>
-              <path d="M4.93 19.07c3.905-3.905 10.237-3.905 14.142 0"></path>
-            </svg>
-          </div>
-          <div class="hub-card-meta">
-            <h2 class="hub-card-title">React.js</h2>
-            <span class="hub-pill pill-react">UI Library</span>
-          </div>
-        </div>
-        <p class="hub-card-desc">
-          JSX mental model, Virtual DOM Fiber diffing, unidirectional state flow, and the modern Hooks ecosystem.
-        </p>
-        <div class="hub-tags">
-          <span class="hub-tag">Virtual DOM</span>
-          <span class="hub-tag">Hooks</span>
-          <span class="hub-tag">State Flow</span>
-        </div>
-        <div class="hub-card-action">
-          <span>Read React Notes</span>
-          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-        </div>
-      </a>
-
-      <!-- 5. Next.js -->
-      <a :href="withBase('/frontend/nextjs/introduction-to-nextjs')" class="hub-card">
+      <!-- 4. Next.js -->
+      <a :href="withBase('/frontend/nextjs/')" class="hub-card">
         <div class="hub-card-header">
           <div class="hub-icon-wrap icon-next">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -144,19 +114,20 @@ import { withBase } from 'vitepress';
           </div>
           <div class="hub-card-meta">
             <h2 class="hub-card-title">Next.js</h2>
-            <span class="hub-pill pill-next">Full-Stack Framework</span>
+            <span class="hub-pill pill-next">4-Part Masterclass</span>
           </div>
         </div>
         <p class="hub-card-desc">
-          Server Components (RSC), App Router routing, Server Actions, and hybrid SSR/SSG/ISR rendering.
+          Full-stack web architecture: App Router, Server Components (RSC), Client hydration, dynamic routes, Server Actions, and complete multi-page site project.
         </p>
         <div class="hub-tags">
-          <span class="hub-tag">RSC</span>
           <span class="hub-tag">App Router</span>
-          <span class="hub-tag">SSR / ISR</span>
+          <span class="hub-tag">Server Actions</span>
+          <span class="hub-tag">RSC & Hydration</span>
+          <span class="hub-tag">SEO & Caching</span>
         </div>
         <div class="hub-card-action">
-          <span>Read Next.js Notes</span>
+          <span>Explore Next.js Track</span>
           <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
         </div>
       </a>
