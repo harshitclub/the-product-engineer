@@ -106,34 +106,36 @@ import { withBase } from 'vitepress';
         </div>
       </a>
 
-      <!-- 4. React.js Interview (Upcoming) -->
-      <div class="hub-card disabled-card">
+      <!-- 4. React.js Interview (Available) -->
+      <a :href="withBase('/interview/reactjs/react-theoretical-questions')" class="hub-card">
         <div class="hub-card-header">
           <div class="hub-icon-wrap icon-react">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="2"></circle>
-              <path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"></path>
-              <path d="M4.93 4.93c3.905 3.905 10.237 3.905 14.142 0"></path>
-              <path d="M4.93 19.07c3.905-3.905 10.237-3.905 14.142 0"></path>
+              <ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(0 12 12)"></ellipse>
+              <ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(60 12 12)"></ellipse>
+              <ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(120 12 12)"></ellipse>
+              <circle cx="12" cy="12" r="1.5" fill="currentColor"></circle>
             </svg>
           </div>
           <div class="hub-card-meta">
             <h2 class="hub-card-title">React.js & Fiber</h2>
-            <span class="hub-pill">Upcoming</span>
+            <span class="hub-pill pill-react">200 Questions</span>
           </div>
         </div>
         <p class="hub-card-desc">
-          Fiber reconciliation, batching in React 18/19, Custom hooks, useMemo vs useCallback, Context vs Redux, and Suspense.
+          100 In-depth Theoretical Questions & 100 Hands-on Practical Challenges covering hooks, state patterns, routing, performance, and Fiber reconciliation.
         </p>
         <div class="hub-tags">
-          <span class="hub-tag">Fiber Tree</span>
-          <span class="hub-tag">State Management</span>
-          <span class="hub-tag">Hooks</span>
+          <span class="hub-tag">100 Theory</span>
+          <span class="hub-tag">100 Practical</span>
+          <span class="hub-tag">Hooks & Forms</span>
+          <span class="hub-tag">React Router</span>
         </div>
-        <div class="hub-card-action disabled-action">
-          <span>In Curriculum</span>
+        <div class="hub-card-action">
+          <span>Explore React Questions</span>
+          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
         </div>
-      </div>
+      </a>
 
       <!-- 5. Next.js & Full Stack (Upcoming) -->
       <div class="hub-card disabled-card">

@@ -12,6 +12,7 @@ A structured, open-source engineering handbook covering core client-side foundat
 - **HTML5 & Semantic Web**: Document hierarchy, semantic landmarks, accessible forms, audio/video media, technical SEO, and WCAG accessibility standards.
 - **Modern CSS3 & Design Systems**: Box model, specificity and cascade algorithms, Flexbox, 2D CSS Grid, OKLCH wide-gamut color spaces, fluid clamp calculations, and animations.
 - **JavaScript (ES6+)**: V8 engine internals, memory heap vs call stack, Event Loop concurrency, closures, promises, and asynchronous execution.
+- **React.js Foundations**: Vite setup, JSX syntax rules, components, props, useState, controlled forms with real-time validation, useEffect, native API fetching, and client-side routing with React Router DOM.
 - **Next.js Full-Stack Architecture**: React Server Components (RSC), App Router file-system routing, Server Actions, client hydration, dynamic rendering, SEO metadata, and scaled production workflows.
 
 ### 2. Backend & Scaled Architecture (Upcoming)

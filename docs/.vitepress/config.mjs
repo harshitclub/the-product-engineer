@@ -87,6 +87,17 @@ export default defineConfig({
           ]
         },
         {
+          text: 'React.js Track',
+          collapsed: false,
+          items: [
+            { text: 'Overview & Roadmap', link: '/frontend/react/' },
+            { text: '1. Vite Setup & Core Essentials', link: '/frontend/react/01-setup-and-core-essentials' },
+            { text: '2. State, Events & Form Handling', link: '/frontend/react/02-state-and-events' },
+            { text: '3. Lifecycle & API Fetching', link: '/frontend/react/03-lifecycle-and-api-fetching' },
+            { text: '4. React Router DOM (Routing)', link: '/frontend/react/04-react-router-dom' }
+          ]
+        },
+        {
           text: 'Next.js Track',
           collapsed: false,
           items: [
@@ -151,6 +162,14 @@ export default defineConfig({
           items: [
             { text: '100 Theoretical Questions', link: '/interview/javascript/javascript-theoretical-questions' },
             { text: '100 Practical & Coding Questions', link: '/interview/javascript/javascript-practical-questions' }
+          ]
+        },
+        {
+          text: 'React.js Interview',
+          collapsed: false,
+          items: [
+            { text: '100 Theoretical Questions', link: '/interview/reactjs/react-theoretical-questions' },
+            { text: '100 Practical & Coding Questions', link: '/interview/reactjs/react-practical-questions' }
           ]
         }
       ]

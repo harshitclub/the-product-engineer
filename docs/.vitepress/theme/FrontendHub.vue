@@ -103,7 +103,38 @@ import { withBase } from 'vitepress';
         </div>
       </a>
 
-      <!-- 4. Next.js -->
+      <!-- 4. React.js -->
+      <a :href="withBase('/frontend/react/')" class="hub-card">
+        <div class="hub-card-header">
+          <div class="hub-icon-wrap icon-react">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(0 12 12)"></ellipse>
+              <ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(60 12 12)"></ellipse>
+              <ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(120 12 12)"></ellipse>
+              <circle cx="12" cy="12" r="1.5" fill="currentColor"></circle>
+            </svg>
+          </div>
+          <div class="hub-card-meta">
+            <h2 class="hub-card-title">React.js</h2>
+            <span class="hub-pill pill-react">4-Part Masterclass</span>
+          </div>
+        </div>
+        <p class="hub-card-desc">
+          Vite setup, JSX essentials, components, props, useState, controlled forms, useEffect, native API fetching, and React Router DOM.
+        </p>
+        <div class="hub-tags">
+          <span class="hub-tag">Vite Setup</span>
+          <span class="hub-tag">useState & Forms</span>
+          <span class="hub-tag">useEffect & Fetch</span>
+          <span class="hub-tag">React Router</span>
+        </div>
+        <div class="hub-card-action">
+          <span>Explore React Track</span>
+          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </div>
+      </a>
+
+      <!-- 5. Next.js -->
       <a :href="withBase('/frontend/nextjs/')" class="hub-card">
         <div class="hub-card-header">
           <div class="hub-icon-wrap icon-next">
