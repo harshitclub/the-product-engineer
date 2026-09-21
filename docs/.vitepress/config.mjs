@@ -49,11 +49,29 @@ export default defineConfig({
 
     nav: [
       { text: 'Frontend', link: '/frontend/' },
+      { text: 'Backend', link: '/backend/' },
       { text: 'DevOps', link: '/devops/' },
       { text: 'Interview', link: '/interview/' }
     ],
 
     sidebar: {
+      '/backend/': [
+        {
+          text: 'Backend Hub',
+          collapsed: false,
+          items: [
+            { text: 'Overview & Curriculum', link: '/backend/' }
+          ]
+        },
+        {
+          text: 'Node.js Track',
+          collapsed: false,
+          items: [
+            { text: '1. Node.js Basics & Web Server', link: '/backend/nodejs/01-nodejs-basics-and-server' },
+            { text: '2. Intermediate Node.js & Core Modules', link: '/backend/nodejs/02-nodejs-intermediate-guide' }
+          ]
+        }
+      ],
       '/frontend/': [
         {
           text: 'Frontend Hub',
