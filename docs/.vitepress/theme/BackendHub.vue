@@ -77,8 +77,8 @@ import { withBase } from 'vitepress';
         </div>
       </div>
 
-      <!-- 3. Databases & Caching (Upcoming) -->
-      <div class="hub-card disabled-card">
+      <!-- 3. Databases & Caching (Available) -->
+      <a :href="withBase('/database/')" class="hub-card">
         <div class="hub-card-header">
           <div class="hub-icon-wrap icon-db">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
@@ -89,21 +89,23 @@ import { withBase } from 'vitepress';
           </div>
           <div class="hub-card-meta">
             <h2 class="hub-card-title">Databases & Caching</h2>
-            <span class="hub-pill">Upcoming</span>
+            <span class="hub-pill pill-node">Active Track</span>
           </div>
         </div>
         <p class="hub-card-desc">
-          Relational modeling with PostgreSQL, indexing strategies, ACID transactions, Prisma/Drizzle ORM, and Redis Cache-Aside architecture.
+          Relational modeling with PostgreSQL in Docker, data operations, indexing strategies, ACID transactions, and caching architectures.
         </p>
         <div class="hub-tags">
           <span class="hub-tag">PostgreSQL</span>
-          <span class="hub-tag">Redis</span>
+          <span class="hub-tag">Docker</span>
+          <span class="hub-tag">SQL Operations</span>
           <span class="hub-tag">Indexing</span>
         </div>
-        <div class="hub-card-action disabled-action">
-          <span>In Curriculum</span>
+        <div class="hub-card-action">
+          <span>Explore Database Track</span>
+          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
         </div>
-      </div>
+      </a>
 
       <!-- 4. Distributed Systems & Queues (Upcoming) -->
       <div class="hub-card disabled-card">

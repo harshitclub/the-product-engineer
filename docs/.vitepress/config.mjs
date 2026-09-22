@@ -50,11 +50,36 @@ export default defineConfig({
     nav: [
       { text: 'Frontend', link: '/frontend/' },
       { text: 'Backend', link: '/backend/' },
+      { text: 'Database', link: '/database/' },
       { text: 'DevOps', link: '/devops/' },
       { text: 'Interview', link: '/interview/' }
     ],
 
     sidebar: {
+      '/database/': [
+        {
+          text: 'Database Hub',
+          collapsed: false,
+          items: [
+            { text: 'Overview & Curriculum', link: '/database/' }
+          ]
+        },
+        {
+          text: 'PostgreSQL Track',
+          collapsed: false,
+          items: [
+            { text: '1. PostgreSQL & Docker Master Guide', link: '/database/postgresql/' },
+            { text: '2. Project: College Management Database', link: '/database/postgresql/college-database-project' }
+          ]
+        },
+        {
+          text: 'Redis Track',
+          collapsed: false,
+          items: [
+            { text: 'Complete Redis & Caching Guide', link: '/database/redis/' }
+          ]
+        }
+      ],
       '/backend/': [
         {
           text: 'Backend Hub',
