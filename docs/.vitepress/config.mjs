@@ -69,7 +69,8 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '1. PostgreSQL & Docker Master Guide', link: '/database/postgresql/' },
-            { text: '2. Project: College Management Database', link: '/database/postgresql/college-database-project' }
+            { text: '2. Project: College Management Database', link: '/database/postgresql/college-database-project' },
+            { text: '3. Node.js, Express & Sequelize with Dockerized PostgreSQL', link: '/database/postgresql/sequelize-express-guide' }
           ]
         },
         {

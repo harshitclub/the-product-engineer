@@ -1172,7 +1172,9 @@ You now have a production-ready mental model and practical skillset for working 
 ---
 
 ### Ready for Hands-On Practice?
-Put your knowledge to work right away by building a complete academic database step-by-step:
+Put your knowledge to work right away with these hands-on guides and projects:
 
-👉 **[Go to Hands-On Project: College Management Database](./college-database-project.md)** — Create 5 connected tables, enroll students, calculate GPAs, and generate transcripts command-by-command!
+1. 👉 **[Project: College Management Database](./college-database-project.md)** — Create 5 connected tables, enroll students, calculate GPAs, and generate transcripts command-by-command!
+2. 👉 **[Backend Project: Node.js, Express & Sequelize with PostgreSQL](./sequelize-express-guide.md)** — Connect Node.js Express to Dockerized PostgreSQL using Sequelize, master CRUD methods, and build a full Login & Signup API with the `users` table!
+
 

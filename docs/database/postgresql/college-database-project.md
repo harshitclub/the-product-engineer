@@ -855,3 +855,11 @@ Congratulations! By completing this hands-on project, you have acquired real eng
 * **Relational Joins**: Joined up to 3 tables simultaneously to generate real-time student transcripts.
 * **Lifecycle Management**: Updated records, performed conditional modifications, and saw cascading deletes in action.
 * **Views**: Created reusable abstractions for high-frequency reports.
+
+---
+
+### Ready for Backend Integration?
+Connect PostgreSQL to an Express server and build a real user authentication system:
+
+👉 **[Go to Hands-On Guide: Node.js, Express & Sequelize with PostgreSQL in Docker](./sequelize-express-guide.md)** — Master database configuration, model definitions, Sequelize CRUD operations, and build a full Login & Signup REST API!
+
