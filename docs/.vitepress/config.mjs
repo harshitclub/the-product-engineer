@@ -52,6 +52,7 @@ export default defineConfig({
       { text: 'Backend', link: '/backend/' },
       { text: 'Database', link: '/database/' },
       { text: 'DevOps', link: '/devops/' },
+      { text: 'Projects', link: '/projects/' },
       { text: 'Interview', link: '/interview/' }
     ],
 
@@ -173,6 +174,22 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: 'Docker & Containerization Guide', link: '/devops/docker/' }
+          ]
+        }
+      ],
+      '/projects/': [
+        {
+          text: 'Projects Hub',
+          collapsed: false,
+          items: [
+            { text: 'Projects Overview', link: '/projects/' }
+          ]
+        },
+        {
+          text: 'LinkPulse',
+          collapsed: false,
+          items: [
+            { text: 'Project Overview & Guide', link: '/projects/linkpulse/overview' }
           ]
         }
       ],

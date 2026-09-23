@@ -100,6 +100,22 @@ import { withBase } from 'vitepress';
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
           </div>
         </a>
+
+        <!-- 5. Production Projects -->
+        <a :href="withBase('/projects/')" class="track-card active-track">
+          <div class="track-card-header">
+            <div class="track-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#4f46e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+            </div>
+            <span class="status-pill status-active">Available</span>
+          </div>
+          <h3 class="track-title">Production Projects</h3>
+          <p class="track-desc">Full-stack capstone blueprints including LinkPulse (Redis cache-aside, BullMQ queues, Express & Next.js), with upcoming distributed systems.</p>
+          <div class="track-footer">
+            <span class="track-link-text">Explore Projects</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </div>
+        </a>
       </div>
     </section>
 

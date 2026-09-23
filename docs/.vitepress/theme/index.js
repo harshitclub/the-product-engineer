@@ -5,6 +5,7 @@ import BackendHub from './BackendHub.vue';
 import DatabaseHub from './DatabaseHub.vue';
 import DevOpsHub from './DevOpsHub.vue';
 import InterviewHub from './InterviewHub.vue';
+import ProjectsHub from './ProjectsHub.vue';
 import './custom.css';
 
 // Auto-heal stale dynamic chunk imports after tab inactivity or server rebuilds
@@ -24,6 +25,7 @@ export default {
     app.component('DatabaseHub', DatabaseHub);
     app.component('DevOpsHub', DevOpsHub);
     app.component('InterviewHub', InterviewHub);
+    app.component('ProjectsHub', ProjectsHub);
   }
 };
 
