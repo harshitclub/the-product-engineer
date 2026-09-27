@@ -8,3 +8,5 @@ description: "LinkPulse project documentation and engineering blueprint."
 Please visit the complete project specification and guide:
 
 - [LinkPulse Overview & Architecture](./overview.md)
+- [LinkPulse Backend Master Guide](./backend/)
+- [LinkPulse Frontend Master Guide](./frontend/)

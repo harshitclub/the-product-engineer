@@ -239,6 +239,9 @@ linkpulse/
 
 ## 9. Step-by-Step Implementation Guide
 
+> [!TIP]
+> 👉 **Dedicated Backend Guide**: For a dedicated, code-accurate walkthrough where you can copy and build every backend file step-by-step, explore our **[LinkPulse Backend Master Guide](./backend/)**!
+
 ### Phase 1: Docker Environment Setup
 
 Create `docker-compose.yml` in the root folder:

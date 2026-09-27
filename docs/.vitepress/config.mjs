@@ -186,10 +186,35 @@ export default defineConfig({
           ]
         },
         {
-          text: 'LinkPulse',
+          text: 'LinkPulse Project',
           collapsed: false,
           items: [
-            { text: 'Project Overview & Guide', link: '/projects/linkpulse/overview' }
+            { text: 'Overview & Architecture', link: '/projects/linkpulse/overview' }
+          ]
+        },
+        {
+          text: 'LinkPulse Backend Guide',
+          collapsed: false,
+          items: [
+            { text: 'Backend Overview', link: '/projects/linkpulse/backend/' },
+            { text: '1. Architecture & Docker Setup', link: '/projects/linkpulse/backend/01-architecture-and-setup' },
+            { text: '2. Database & Sequelize Models', link: '/projects/linkpulse/backend/02-database-and-models' },
+            { text: '3. Redis & BullMQ Queues', link: '/projects/linkpulse/backend/03-redis-caching-and-queues' },
+            { text: '4. Validation & Rate Limiter', link: '/projects/linkpulse/backend/04-validation-and-middlewares' },
+            { text: '5. Controllers & API Routes', link: '/projects/linkpulse/backend/05-controllers-and-routes' },
+            { text: '6. Server Entry & API Testing', link: '/projects/linkpulse/backend/06-server-and-testing' }
+          ]
+        },
+        {
+          text: 'LinkPulse Frontend Guide',
+          collapsed: false,
+          items: [
+            { text: 'Frontend Overview', link: '/projects/linkpulse/frontend/' },
+            { text: '1. Next.js Setup & Styling', link: '/projects/linkpulse/frontend/01-nextjs-setup-and-structure' },
+            { text: '2. API Service Layer', link: '/projects/linkpulse/frontend/02-api-service-layer' },
+            { text: '3. Core UI Components', link: '/projects/linkpulse/frontend/03-components-and-forms' },
+            { text: '4. Analytics & Dashboard', link: '/projects/linkpulse/frontend/04-analytics-modal-and-dashboard' },
+            { text: '5. Full-Stack Run & Testing', link: '/projects/linkpulse/frontend/05-run-and-test-fullstack' }
           ]
         }
       ],
