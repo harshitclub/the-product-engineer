@@ -77,6 +77,68 @@ import { withBase } from 'vitepress';
           </svg>
         </div>
       </a>
+
+      <!-- PulseWatch Card -->
+      <a :href="withBase('/projects/pulsewatch/overview')" class="project-featured-card">
+        <div class="card-top">
+          <div class="icon-box" style="background-color: #eff6ff; border-color: #bfdbfe; color: #2563eb;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+            </svg>
+          </div>
+          <div class="card-meta">
+            <div class="title-row">
+              <h2 class="card-title">PulseWatch</h2>
+              <span class="status-badge">Available Now</span>
+            </div>
+            <p class="card-tagline">Full-Stack Website Uptime & Health Monitor</p>
+          </div>
+        </div>
+
+        <p class="card-description">
+          A production-ready website uptime and latency monitoring application inspired by UptimeRobot. Built to teach background workers, BullMQ scheduling, Redis in-memory caching, JWT authentication, and Next.js 16 dashboards.
+        </p>
+
+        <div class="card-highlights">
+          <div class="highlight-item">
+            <span class="highlight-label">Frontend:</span>
+            <span class="highlight-val">Next.js & React 19</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-label">Backend:</span>
+            <span class="highlight-val">Node.js & Express</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-label">Database:</span>
+            <span class="highlight-val">PostgreSQL & Sequelize</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-label">Worker & Cache:</span>
+            <span class="highlight-val">Redis & BullMQ</span>
+          </div>
+        </div>
+
+        <div class="tech-tags">
+          <span class="tag">Next.js</span>
+          <span class="tag">React 19</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">Express</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">Sequelize</span>
+          <span class="tag">Redis</span>
+          <span class="tag">BullMQ</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Zod</span>
+        </div>
+
+        <div class="card-action">
+          <span>Read Full PulseWatch Guide & Architecture</span>
+          <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </div>
+      </a>
     </div>
   </div>
 </template>
@@ -135,6 +197,9 @@ import { withBase } from 'vitepress';
 
 .projects-single-wrapper {
   margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .project-featured-card {

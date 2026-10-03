@@ -216,6 +216,38 @@ export default defineConfig({
             { text: '4. Analytics & Dashboard', link: '/projects/linkpulse/frontend/04-analytics-modal-and-dashboard' },
             { text: '5. Full-Stack Run & Testing', link: '/projects/linkpulse/frontend/05-run-and-test-fullstack' }
           ]
+        },
+        {
+          text: 'PulseWatch Project',
+          collapsed: false,
+          items: [
+            { text: 'Overview & Architecture', link: '/projects/pulsewatch/overview' }
+          ]
+        },
+        {
+          text: 'PulseWatch Backend Guide',
+          collapsed: false,
+          items: [
+            { text: 'Backend Overview', link: '/projects/pulsewatch/backend/' },
+            { text: '1. Architecture & Docker Setup', link: '/projects/pulsewatch/backend/01-architecture-and-setup' },
+            { text: '2. Database & Sequelize Models', link: '/projects/pulsewatch/backend/02-database-and-models' },
+            { text: '3. Redis & BullMQ Worker', link: '/projects/pulsewatch/backend/03-redis-and-bullmq-worker' },
+            { text: '4. Authentication & JWT', link: '/projects/pulsewatch/backend/04-auth-and-jwt' },
+            { text: '5. Monitor Routes & Caching', link: '/projects/pulsewatch/backend/05-monitor-routes-and-caching' },
+            { text: '6. Server Bootstrap & Testing', link: '/projects/pulsewatch/backend/06-server-and-testing' }
+          ]
+        },
+        {
+          text: 'PulseWatch Frontend Guide',
+          collapsed: false,
+          items: [
+            { text: 'Frontend Overview', link: '/projects/pulsewatch/frontend/' },
+            { text: '1. Next.js Setup & Styling', link: '/projects/pulsewatch/frontend/01-nextjs-setup-and-styling' },
+            { text: '2. API Service Layer', link: '/projects/pulsewatch/frontend/02-api-service-layer' },
+            { text: '3. Landing & Auth Pages', link: '/projects/pulsewatch/frontend/03-landing-and-auth-pages' },
+            { text: '4. Dashboard & History Modal', link: '/projects/pulsewatch/frontend/04-dashboard-and-modals' },
+            { text: '5. Full-Stack Run & Testing', link: '/projects/pulsewatch/frontend/05-run-and-test-fullstack' }
+          ]
         }
       ],
       '/interview/': [
@@ -256,6 +288,21 @@ export default defineConfig({
           items: [
             { text: '100 Theoretical Questions', link: '/interview/reactjs/react-theoretical-questions' },
             { text: '100 Practical & Coding Questions', link: '/interview/reactjs/react-practical-questions' }
+          ]
+        },
+        {
+          text: 'Node.js & Express Interview',
+          collapsed: false,
+          items: [
+            { text: '100 Theoretical Questions', link: '/interview/nodejs/nodejs-express-theoretical-questions' },
+            { text: '100 Practical & Coding Questions', link: '/interview/nodejs/nodejs-express-practical-questions' }
+          ]
+        },
+        {
+          text: 'DBMS & SQL Interview',
+          collapsed: false,
+          items: [
+            { text: '100 Core DBMS Questions', link: '/interview/dbms/dbms-interview-questions' }
           ]
         }
       ]

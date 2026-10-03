@@ -137,7 +137,67 @@ import { withBase } from 'vitepress';
         </div>
       </a>
 
-      <!-- 5. Next.js & Full Stack (Upcoming) -->
+      <!-- 5. Node.js & Express Interview (Available) -->
+      <a :href="withBase('/interview/nodejs/nodejs-express-theoretical-questions')" class="hub-card">
+        <div class="hub-card-header">
+          <div class="hub-icon-wrap icon-node" style="background-color: #f0fdf4; border-color: #bbf7d0; color: #16a34a;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+              <path d="M2 17l10 5 10-5"></path>
+              <path d="M2 12l10 5 10-5"></path>
+            </svg>
+          </div>
+          <div class="hub-card-meta">
+            <h2 class="hub-card-title">Node.js & Express</h2>
+            <span class="hub-pill" style="background-color: #dcfce7; color: #15803d; border-color: #86efac;">200 Questions</span>
+          </div>
+        </div>
+        <p class="hub-card-desc">
+          100 In-depth Theoretical Questions & 100 Hands-on Practical Coding Exercises covering the Event Loop, Streams, Buffers, Middlewares, and REST APIs.
+        </p>
+        <div class="hub-tags">
+          <span class="hub-tag">100 Theory</span>
+          <span class="hub-tag">100 Practical</span>
+          <span class="hub-tag">Event Loop</span>
+          <span class="hub-tag">Middlewares</span>
+        </div>
+        <div class="hub-card-action">
+          <span>Explore Node.js Questions</span>
+          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </div>
+      </a>
+
+      <!-- 6. DBMS & SQL Interview (Available) -->
+      <a :href="withBase('/interview/dbms/dbms-interview-questions')" class="hub-card">
+        <div class="hub-card-header">
+          <div class="hub-icon-wrap icon-dbms" style="background-color: #fef2f2; border-color: #fecaca; color: #dc2626;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+              <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+              <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+            </svg>
+          </div>
+          <div class="hub-card-meta">
+            <h2 class="hub-card-title">DBMS & SQL Engine</h2>
+            <span class="hub-pill" style="background-color: #fee2e2; color: #b91c1c; border-color: #fca5a5;">100 Questions</span>
+          </div>
+        </div>
+        <p class="hub-card-desc">
+          100 Master Theoretical & Practical Questions covering relational schemas, keys, 1NF to BCNF normalization, ACID transactions, and B+ Tree indexing.
+        </p>
+        <div class="hub-tags">
+          <span class="hub-tag">100 Core Q&A</span>
+          <span class="hub-tag">ACID & 2PL</span>
+          <span class="hub-tag">Normalization</span>
+          <span class="hub-tag">B+ Trees & Joins</span>
+        </div>
+        <div class="hub-card-action">
+          <span>Explore DBMS Questions</span>
+          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </div>
+      </a>
+
+      <!-- 7. Next.js & Server Systems (Upcoming) -->
       <div class="hub-card disabled-card">
         <div class="hub-card-header">
           <div class="hub-icon-wrap icon-next">
@@ -158,35 +218,6 @@ import { withBase } from 'vitepress';
           <span class="hub-tag">RSC</span>
           <span class="hub-tag">App Router</span>
           <span class="hub-tag">Edge Computing</span>
-        </div>
-        <div class="hub-card-action disabled-action">
-          <span>In Curriculum</span>
-        </div>
-      </div>
-
-      <!-- 6. Backend & System Design (Upcoming) -->
-      <div class="hub-card disabled-card">
-        <div class="hub-card-header">
-          <div class="hub-icon-wrap icon-backend">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-              <rect width="20" height="8" x="2" y="2" rx="2" ry="2"></rect>
-              <rect width="20" height="8" x="2" y="14" rx="2" ry="2"></rect>
-              <line x1="6" x2="6.01" y1="6" y2="6"></line>
-              <line x1="6" x2="6.01" y1="18" y2="18"></line>
-            </svg>
-          </div>
-          <div class="hub-card-meta">
-            <h2 class="hub-card-title">Backend & System Design</h2>
-            <span class="hub-pill">Upcoming</span>
-          </div>
-        </div>
-        <p class="hub-card-desc">
-          REST vs gRPC, PostgreSQL indexing & ACID transactions, Redis caching strategies (Cache-Aside), and Rate limiting algorithms.
-        </p>
-        <div class="hub-tags">
-          <span class="hub-tag">System Design</span>
-          <span class="hub-tag">Databases</span>
-          <span class="hub-tag">Caching</span>
         </div>
         <div class="hub-card-action disabled-action">
           <span>In Curriculum</span>
