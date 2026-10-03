@@ -53,7 +53,8 @@ export default defineConfig({
       { text: 'Database', link: '/database/' },
       { text: 'DevOps', link: '/devops/' },
       { text: 'Projects', link: '/projects/' },
-      { text: 'Interview', link: '/interview/' }
+      { text: 'Interview', link: '/interview/' },
+      { text: 'Extra', link: '/extra/' }
     ],
 
     sidebar: {
@@ -303,6 +304,31 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '100 Core DBMS Questions', link: '/interview/dbms/dbms-interview-questions' }
+          ]
+        }
+      ],
+      '/extra/': [
+        {
+          text: 'Extra Tracks',
+          collapsed: false,
+          items: [
+            { text: 'Overview & Curriculum', link: '/extra/' }
+          ]
+        },
+        {
+          text: 'AI & Prompt Engineering',
+          collapsed: false,
+          items: [
+            { text: 'AI Hub Overview', link: '/extra/ai/' },
+            { text: 'Prompt Engineering for Beginners', link: '/extra/ai/prompt-engineering-for-beginners' }
+          ]
+        },
+        {
+          text: 'System Design',
+          collapsed: false,
+          items: [
+            { text: 'System Design Hub', link: '/extra/system-design/' },
+            { text: 'System Design Fundamentals', link: '/extra/system-design/system-design-fundamentals' }
           ]
         }
       ]
